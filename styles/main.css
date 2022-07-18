@@ -172,6 +172,67 @@ main ul#product-categories img {
 	font-weight: bold;
 }
 
+/* the styles for the form */
+fieldset {
+	margin: 1em;
+}
+
+legend {
+    color: grey;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+label {
+	float: left;
+	width: 12em;
+	text-align: right;
+}
+
+input {
+	width: 15em;
+}
+
+label, input, select {
+    font-size: 90%;
+}
+
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+:required {
+	border: 2px solid orange;
+}
+
+:valid {
+	border: 1px solid black;
+}
+
+#payment_method label {
+	float: none;
+}
+
+input[type="radio"] {
+	width: auto;
+	margin-left: 3em;
+}
+
+#expiration_month {
+	width: 7em;
+}
+
+#expiration_year {
+	width: 5em;
+}
+
+#buttons input {
+    width: 10em;
+}
+
 /* Footer */
 footer {
 	clear: left;
