@@ -173,10 +173,12 @@ main ul#product-categories img {
 }
 
 /* the styles for the form */
+/* setting 1em of space all around the fieldset*/
 fieldset {
 	margin: 1em;
 }
 
+/* setting styles for each section of the form */
 legend {
     color: grey;
     font-weight: bold;
@@ -184,51 +186,62 @@ legend {
     margin-bottom: .5em;
 }
 
+/* styling the labels for the input fields */
 label {
 	float: left;
 	width: 12em;
 	text-align: right;
 }
 
+/* setting the input field width to 15em */
 input {
 	width: 15em;
 }
 
+/* setting the font-size for the label, input, and select elements */
 label, input, select {
     font-size: 90%;
 }
 
+/* styling the input and select elements */
 input, select {
     width: 15em;
     margin-left: .5em;
     margin-bottom: .5em;
 }
 
+/* creating an orange border around the required fields */
 :required {
 	border: 2px solid orange;
 }
 
+/* creating a black border around the valid fields */
 :valid {
 	border: 1px solid black;
 }
 
+/* removes float from radio button labels */
 #payment_method label {
 	float: none;
 }
 
+/* setting the width and margin of the radio buttons */
 input[type="radio"] {
 	width: auto;
 	margin-left: 3em;
 }
 
+/* setting the width of the expiration month dropdown bar */
 #expiration_month {
 	width: 7em;
 }
 
+/* setting the width of the expiration year dropdown bar */
 #expiration_year {
 	width: 5em;
 }
 
+/* sets the width of the buttons */
 #buttons input {
     width: 10em;
 }
